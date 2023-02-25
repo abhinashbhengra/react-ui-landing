@@ -1,4 +1,5 @@
 import React from "react";
+import CtaSection from "../components/CtaSection";
 import Features from "../components/Features";
 import Feedback from "../components/Feedback";
 import HeroSection from "../components/HeroSection";
@@ -15,6 +16,7 @@ const Home = () => {
       <VideoSection />
       <Features />
       <Feedback />
+      <CtaSection />
     </>
   );
 };
