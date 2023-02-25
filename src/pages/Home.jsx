@@ -2,6 +2,7 @@ import React from "react";
 import CtaSection from "../components/CtaSection";
 import Features from "../components/Features";
 import Feedback from "../components/Feedback";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import LogoSection from "../components/LogoSection";
 import Navbar from "../components/Navbar";
@@ -17,6 +18,7 @@ const Home = () => {
       <Features />
       <Feedback />
       <CtaSection />
+      <Footer />
     </>
   );
 };
