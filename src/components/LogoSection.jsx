@@ -4,24 +4,17 @@ import styled from "styled-components";
 const LogoSection = () => {
   return (
     <Wrapper>
-      <figure>
-        <img src="./images/Nestle.png" alt="Nestle" />
-      </figure>
-      <figure>
-        <img src="./images/Apple.png" alt="apple" />
-      </figure>
-      <figure>
-        <img src="./images/Beco.png" alt="beco" />
-      </figure>
-      <figure>
-        <img src="./images/Amazon.png" alt="amazon" />
-      </figure>
-      <figure>
-        <img src="./images/Google.png" alt="google" />
-      </figure>
-      <figure>
-        <img src="./images/Walmart.png" alt="walmart" />
-      </figure>
+      <img src="./images/Nestle.png" alt="Nestle" />
+
+      <img src="./images/Apple.png" alt="apple" />
+
+      <img src="./images/Beco.png" alt="beco" />
+
+      <img src="./images/Amazon.png" alt="amazon" />
+
+      <img src="./images/Google.png" alt="google" />
+
+      <img src="./images/Walmart.png" alt="walmart" />
     </Wrapper>
   );
 };
