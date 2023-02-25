@@ -1,5 +1,6 @@
 import React from "react";
 import Features from "../components/Features";
+import Feedback from "../components/Feedback";
 import HeroSection from "../components/HeroSection";
 import LogoSection from "../components/LogoSection";
 import Navbar from "../components/Navbar";
@@ -13,6 +14,7 @@ const Home = () => {
       <LogoSection />
       <VideoSection />
       <Features />
+      <Feedback />
     </>
   );
 };
