@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { SecondaryButton } from "./buttons/SecondaryButton";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,10 +41,18 @@ const Footer = () => {
             </div>
           </div>
           <div className="section2">
-            <div className="link">fb</div>
-            <div className="link">li</div>
-            <div className="link">in</div>
-            <div className="link">twitter</div>
+            <div className="link">
+              <img src="./images/Facebook.png" alt="facebook" />
+            </div>
+            <div className="link">
+              <img src="./images/Linkedin.png" alt="linkedin" />
+            </div>
+            <div className="link">
+              <img src="./images/Instagram.png" alt="intagram" />
+            </div>
+            <div className="link">
+              <img src="./images/Twitter.png" alt="twitter" />
+            </div>
           </div>
         </div>
       </div>
@@ -51,7 +60,7 @@ const Footer = () => {
   );
 };
 const Wrapper = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* height: 413px; */
   display: flex;
   padding: 70px 80px;
@@ -59,13 +68,13 @@ const Wrapper = styled.div`
   align-items: center;
 
   .footer-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     gap: 900px;
 
     .left-section {
-      border: 2px solid purple;
+      /* border: 2px solid purple; */
       img {
         margin-bottom: 75px;
       }
@@ -95,7 +104,7 @@ const Wrapper = styled.div`
     }
 
     .right-section {
-      border: 2px solid purple;
+      /* border: 2px solid purple; */
       .section1 {
         display: flex;
         margin-bottom: 92px;
@@ -129,6 +138,10 @@ const Wrapper = styled.div`
         display: flex;
         justify-content: end;
         gap: 30px;
+
+        .link {
+          font-size: 30px;
+        }
       }
     }
   }
